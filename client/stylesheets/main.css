@@ -1,0 +1,18 @@
+html, body {
+	height: 100%;
+}
+
+#layout {
+	max-height: 60%;
+	left: 20px;
+	top: 40px;
+	position: relative;	
+	overflow: scroll;
+	padding-bottom: 60px;
+}
+
+.pure-form {	
+	position: absolute;
+	left: 10px;
+	bottom: 20px;
+}

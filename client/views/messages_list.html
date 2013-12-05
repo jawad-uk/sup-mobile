@@ -1,0 +1,9 @@
+<template name="messagesList">
+  <div class="pure-g-r content" id="layout"> 
+    <div class="pure-u-1" id="list">
+      {{#each messages}}
+      	{{> messageItem}}
+      {{/each}}
+    </div>
+  </div>
+</template>
