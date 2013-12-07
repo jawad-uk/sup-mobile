@@ -5,8 +5,8 @@ Template.messagesList.helpers({
 });
 
 Template.messagesList.rendered = function () {
-	console.log("scrolltop is " + $('#list').scrollTop());
-	$('#list').scrollTop( $('#list').prop("scrollHeight") );
+	console.log("scrolltop is " + $('#layout').scrollTop()),
+	$('#layout').scrollTop( $('#layout').prop("scrollHeight") );
 };
 
 	

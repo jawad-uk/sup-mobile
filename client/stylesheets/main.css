@@ -1,3 +1,7 @@
+body {
+  background: #fff;
+}
+
 html, body {
 	height: 100%;
 }
@@ -15,8 +19,17 @@ h1 {
 	font-size: 2em !important;
 }
 
+/*#msg {
+	background-color: gray;
+	margin-top: 5px;
+}*/
+
 .pure-form {	
 	position: absolute;
 	left: 10px;
 	bottom: 20px;
+}
+
+.h-elements {
+	
 }

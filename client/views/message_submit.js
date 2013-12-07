@@ -3,12 +3,13 @@ Template.messageSubmit.events({
     e.preventDefault();
     console.log('new comment created')
     
-    var user = Meteor.user(); 
+    // var user = Meteor.user(); 
 
     var message = {
       msgText: $(e.target).find('[name=msg]').val(),
-      sentBy: user.profile.name,
-      userId: user._id
+      sentBy: "unknown user"
+      // sentBy: user.profile.name,
+      // userId: user._id
     }
     message._id = Messages.insert(message);
     $('.pure-input-rounded').val("");
