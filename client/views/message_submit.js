@@ -12,6 +12,6 @@ Template.messageSubmit.events({
       // userId: user._id
     }
     message._id = Messages.insert(message);
-    $('.pure-input-rounded').val("");
+    $('.contactField').val("");
   }
 });
