@@ -13,12 +13,13 @@ html, body {
 
 #layout {
 	max-height: 60%;
-	left: 20px;
+	left: 0;
 	top: 60px;
 	position: relative;	
 	overflow: scroll;
 	padding-bottom: 60px;
 	color: white;
+	font-weight: lighter;
 }
 
 .footer {	
@@ -32,4 +33,10 @@ html, body {
 .buttonWrap {
 	float: right;
 	height: 35px;
+}
+
+.speech-left-title {
+	color: white;
+	text-shadow: none;
+
 }

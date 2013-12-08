@@ -1,13 +1,6 @@
 <template name="messageItem">
-	<div class="email-item email-item pure-g">
-	  <div class="pure-u-3-4" id="msg">
-	      <p>
-	      	<strong>{{sentBy}}</strong><br>
-	          {{msgText}}
-	      </p>	      
-	  </div>
+	<div class="message-block">
+	      <em class="speech-left-title">{{sentBy}}</em>
+	      <p class="speech-left blue-bubble">{{msgText}}</p>	      
 	</div>
 </template>
-
-
-
