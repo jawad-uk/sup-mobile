@@ -1,9 +1,14 @@
 body {
-  background: #fff;
+  background: gray;
 }
 
 html, body {
 	height: 100%;
+}
+
+
+.page-header {
+	position: fixed;
 }
 
 #layout {
@@ -13,23 +18,18 @@ html, body {
 	position: relative;	
 	overflow: scroll;
 	padding-bottom: 60px;
+	color: white;
 }
 
-h1 {
-	font-size: 2em !important;
-}
-
-/*#msg {
-	background-color: gray;
-	margin-top: 5px;
-}*/
-
-.pure-form {	
+.footer {	
 	position: absolute;
 	left: 10px;
 	bottom: 20px;
+	width: 90%;
 }
 
-.h-elements {
-	
+
+.buttonWrap {
+	float: right;
+	height: 35px;
 }
